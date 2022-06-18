@@ -13,7 +13,7 @@ class Player
         return input_hand
       else
         puts "0~2以外が入力されてます。0~2を入力してください"
-        exit
+        input_hand = gets.chomp.to_i
       end
       # if 「input_hand」が「0, 1, 2」のいずれかの場合だった場合
       # ヒント：include?メソッドについて調べてみましょう。
